@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-image: url(../assets/world.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    width: 50%;
+    height: 800px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: black;
+    margin-left: 25%;
+    margin-top: 1%;
+    margin-right: 25%;
+    text-align: center;
+    margin-bottom: 0%;
+}
+input[type=text], input[type=email], input[type=phone]{
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+input[type=submit]{
+    width: 31%;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit] :hover{
+    background-color: dimgray;
+}
+h1{
+    color: white;
+}
+.svg{
+    position: absolute;
+    left: 40%;
+}
+.google{
+    max-width: 10%;
+    border-radius: 30px;
+}
+.facebook{
+    max-width: 10%;
+}
+.twitter{
+    max-width: 10%;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-image: url(../assets/world.jpg);
+      }
+      .iframe{
+          width:100px;
+      }
+      .svg{
+          margin-left: 10%;
+      }
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-image: url(../assets/world.jpg);
+      }
+       .contact{
+          width: 100%;
+      } 
+      .iframe{
+          width:200px;
+      }
+      #emri #email #phone #submit #subject{
+          width: 40%;
+      }
+}
+@media screen and (max-width: 1200px) {
+    body{
+        background-image: url(../assets/world.jpg);
+      }
+      
+      .iframe{
+          width:300px;
+      }
+}
